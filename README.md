@@ -41,7 +41,6 @@ communication:
 - PyGreece AMKE Administrators: This should be the group used by administrators for
     account related to the AMKE's financials. Banking accounts, eAADE, GEMI,
     and others should use this account. PyGreece AMKE administrators are group owners.
-    The permissions model is the following:
 - PyGreece Security: This should be a security-intensive group that only gives access to
     the necessary people. It should be used as the email for accounts that require higher
     levels of security, like password managers and others. It currently includes all
