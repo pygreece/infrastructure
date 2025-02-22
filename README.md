@@ -27,11 +27,10 @@ External (non-organizer) users that regularly contribute to PyGreece-maintained 
 can request to get a `pygreece.org` email address, in case it's needed for them to be able
 to effectively contribute to their projects.
 
-!!! info
-
-    There's currently also one Google Workspace account for `bot@pygreece.org`, the bot user
-    that is used for registering any bot accounts with various services. Accounts like this should
-    always get as little permissions as possible.
+> [!NOTE]
+> There's currently also one Google Workspace account for `bot@pygreece.org`, the bot user
+> that is used for registering any bot accounts with various services. Accounts like this should
+> always get as little permissions as possible.
 
 ### Groups
 
@@ -74,9 +73,9 @@ The permissions model is the following:
 | Moderate metadata           | Owners                       | Managers          | Managers                   | Managers                   |
 | Post as group               | Owners                       | None              | Members                    | None                       |
 
-!!! tip
-    Some of the above settings need to be selected from the Google Admin console, while other need
-    to be selected from the group settings on groups.google.com.
+> [!TIP]
+> Some of the above settings need to be selected from the Google Admin console, while other need
+> to be selected from the group settings on groups.google.com.
 
 ## Github
 
@@ -97,10 +96,9 @@ privilege should be used. That means the following in terms of user permissions:
     should be added as outside collaborators to the specific repos they contribute to, though
     becoming an organization member is okay if they need it.
 
-!!! info
-
-    Our Github organization currently has a bot member as well. This is needed for some automations to run, like
-    [Pulses](https://pulses.dev), etc. Any bot on our Github organization should have as little permissions as possible.
+> [!NOTE]
+> Our Github organization currently has a bot member as well. This is needed for some automations to run, like
+> [Pulses](https://pulses.dev), etc. Any bot on our Github organization should have as little permissions as possible.
 
 
 ### Teams
