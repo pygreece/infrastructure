@@ -24,7 +24,8 @@ the principle of least privilege. Hence, the permissions should be set up as fol
   successful in fulfilling their board role.
 - **PyCon GR organizers**: They should be organization members with no admin control,
   unless permissions are needed for PyCon GR organizers to be successful in fulfilling
-  their organizer role.
+  their organizer role. Organizers that solely handle PyCon organization tasks should get
+  `pycon.gr` email addresses only.
 
 External (non-organizer) users that regularly contribute to PyGreece-maintained projects
 can request to get a `pygreece.org` email address, in case it's needed for them to be able
@@ -40,39 +41,39 @@ to effectively contribute to their projects.
 The PyGreece organization has the following groups for easy management of group
 communication:
 
-- PyGreece AMKE Administrators: This should be the group used by administrators for
+- **PyGreece AMKE Administrators**: This should be the group used by administrators for
   account related to the AMKE's financials. Banking accounts, eAADE, GEMI, and others
   should use this account. PyGreece AMKE administrators are group owners.
-- PyGreece Security: This should be a security-intensive group that only gives access to
-  the necessary people. It should be used as the email for accounts that require higher
+- **PyGreece Security**: This should be a security-intensive group that only gives access
+  to the necessary people. It should be used as the email for accounts that require higher
   levels of security, like password managers and others. It currently includes all
   PyGreece organizers, but that is not necessary and might change in the future. PyGreece
   AMKE administrators are owners, directors are managers, and other organizers are
   members.
-- PyGreece Organizers: This is a group email that inlcudes all PyGreece organizers and
+- **PyGreece Organizers**: This is a group email that inlcudes all PyGreece organizers and
   should be used for internal meeting invitations, Google Drive sharing with multiple
   people, as well as external communications as a group. PyGreece AMKE administrators are
   owners, directors are managers, and other organizers are members.
-- PyGreece Subscriptions: This account should be used as the default account to register
-  for online services, like Github, Cloudflare, etc. PyGreece AMKE administrators are
-  owners, directors are managers, and other organizers are members.
-- PyGreece CoC Committee: This is a group email that should be listed as the email address
-  for CoC incident reports. Members of the CoC committee should be using the email address
-  for all CoC-related communications.
+- **PyGreece Subscriptions**: This account should be used as the default account to
+  register for online services, like Github, Cloudflare, etc. PyGreece AMKE administrators
+  are owners, directors are managers, and other organizers are members.
+- **PyGreece CoC Committee**: This is a group email that should be listed as the email
+  address for CoC incident reports. Members of the CoC committee should be using the email
+  address for all CoC-related communications.
 
 There's also Google groups used for PyCon organizers and the team managing its
 organization:
 
-- PyCon GR Support: Externally facing group email address. Should be used for all
+- **PyCon GR Support**: Externally facing group email address. Should be used for all
   communications with attendees and should also be the email listed as the main point of
   contact on the PyCon GR website.
-- PyCon GR Sponsors: This group email should be used by the Sponsors team for all
+- **PyCon GR Sponsors**: This group email should be used by the Sponsors team for all
   communications/negotiations with potential sponsors.
-- PyCon GR Program: Group email for the Program team. Can be used for communications with
-  (keynote) speakers, and should be the point of contact listed on the CfP. Can also be
-  used for CfP software (like pretalx), and others.
-- PyCon GR Organizers: Interal group email for all PyCon GR organizers. Can be used for
-  calendar events, internal communications, etc.
+- **PyCon GR Program**: Group email for the Program team. Can be used for communications
+  with (keynote) speakers, and should be the point of contact listed on the CfP. Can also
+  be used for CfP software (like pretalx), and others.
+- **PyCon GR Organizers**: Interal group email for all PyCon GR organizers. Can be used
+  for calendar events, internal communications, etc.
 
 The permissions model is the following:
 
@@ -99,7 +100,7 @@ The permissions model is the following:
 
 ## Github
 
-PyGreece has a nonprofit organization account on Github.
+PyGreece has a nonprofit [organization account](https://github.com/pygreece) on Github.
 
 ### Users & user permissions
 
@@ -120,8 +121,9 @@ least privilege should be used. That means the following in terms of user permis
   contribute to, though becoming an organization member is okay if they need it.
 
 > [!NOTE]
-> Our Github organization currently has a bot member as well. This is needed for
-> some automations to run, like [Pulses](https://pulses.dev), etc. Any bot on our Github
+> Our Github organization currently has a
+> [bot member](https://github.com/pygreece-bot) as well. This is needed for some
+> automations to run, like [Pulses](https://pulses.dev), etc. Any bot on our Github
 > organization should have as little permissions as possible.
 
 ### Teams
@@ -134,31 +136,31 @@ least privilege should be used. That means the following in terms of user permis
   should be in this team. It should not give write access to any repositories. Its main
   purpose is notifying groups of people for reviews, issue assignments, etc.
 - **pycon25**: PyCon GR organizers that are responsible for tasks related to PyCon GR. It
-  should give write access to all repositories that are related to PyCon GR, like
-  org-pycon-2025, pycon-gr-website, etc. For each year's PyCon a new team should be
-  created, so that old organizers do not lose access to the material produced during the
-  organization of older PyCon's.
+  should give write access to all repositories that are related to PyCon GR. For each
+  year's PyCon a new team should be created, so that old organizers do not lose access to
+  the material produced during the organization of older PyCon's.
 
 ### Repositories
 
-- **community**: The PyGreece community knowledge base. It serves as the primary
-  collection of resources for all organizers and members. Also serves the wesite you're
-  currently seeing. It should always remain public for anyone to contribute to.
-- **org**: This repository serves as the main collection of issues and discussions needed
-  for organizers to run their day-to-day tasks. It should be private. The `org` team
-  should have write access to it.
-- **infrastructure**: This repository serves as a place to host all infrastructure-related
-  code and resources for PyGreece organizers. It is currently private, but could be made
-  public in the future.
-- **discord**: The code for the PyGreece discord bot. It should always remain public for
+- [**community**](https://github.com/pygreece/community): The PyGreece community knowledge
+  base. It serves as the primary collection of resources for all organizers and members.
+  Also serves the wesite you're currently seeing. It should always remain public for
   anyone to contribute to.
-- **org-pycon-2025**: This repository serves as the main collection of issues and
-  discussions needed for PyCon organizers. It should be private. The `pycon25` team should
-  have write access to it.
-- **pycon-gr-website**: This repository hosts the code and all of the needed
-  infrastructure scripts for the `pycon.gr` website. It should be public, so that external
-  contributors can also contribute to it. The `pycon25` and any future PyCon-related teams
-  should have write access to it.
+- [**org**](https://github.com/pygreece/org): This repository serves as the main
+  collection of issues and discussions needed for organizers to run their day-to-day
+  tasks. It should be private. The `org` team should have write access to it.
+- [**infrastructure**](https://github.com/pygreece/infrastructure): This repository serves
+  as a place to host all infrastructure-related code and resources for PyGreece
+  organizers. It is currently private, but could be made public in the future.
+- [**discord**](https://github.com/pygreece/discord): The code for the PyGreece discord
+  bot. It should always remain public for anyone to contribute to.
+- [**org-pycon-2025**](https://github.com/pygreece/org-pycon-2025): This repository serves
+  as the main collection of issues and discussions needed for PyCon organizers. It should
+  be private. The `pycon25` team should have write access to it.
+- [**pycon-gr-website**](https://github.com/pygreece/pycon-gr-website): This repository
+  hosts the code and all of the needed infrastructure scripts for the `pycon.gr` website.
+  It should be public, so that external contributors can also contribute to it. The
+  `pycon25` and any future PyCon-related teams should have write access to it.
 
 > [!NOTE]
 > **python-docs-gr**: This repository hosts the translation of the Python document
@@ -208,8 +210,9 @@ currently cannot be registered through or transferred to Cloudflare).
 
 The PyGreece team hosts a Vaultwarden server on our DigitalOcean infrastructure. It
 implements a Bitwarden server and is open-source. Members of the team can install the
-Bitwarden extension on their browser and point it to `https:://vaultwarden.pygreece.org`,
-which is where our password manager lives.
+Bitwarden extension on their browser and point it to
+[`https://vaultwarden.pygreece.org`](https://vaultwarden.pygreece.org), which is where our
+password manager lives.
 
 ### Users
 
