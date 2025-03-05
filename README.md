@@ -151,7 +151,7 @@ least privilege should be used. That means the following in terms of user permis
   tasks. It should be private. The `org` team should have write access to it.
 - [**infrastructure**](https://github.com/pygreece/infrastructure): This repository serves
   as a place to host all infrastructure-related code and resources for PyGreece
-  organizers. It is currently private, but could be made public in the future.
+  organizers.
 - [**discord**](https://github.com/pygreece/discord): The code for the PyGreece discord
   bot. It should always remain public for anyone to contribute to.
 - [**org-pycon-2025**](https://github.com/pygreece/org-pycon-2025): This repository serves
