@@ -44,12 +44,6 @@ communication:
 - **PyGreece AMKE Administrators**: This should be the group used by administrators for
   account related to the AMKE's financials. Banking accounts, eAADE, GEMI, and others
   should use this account. PyGreece AMKE administrators are group owners.
-- **PyGreece Security**: This should be a security-intensive group that only gives access
-  to the necessary people. It should be used as the email for accounts that require higher
-  levels of security, like password managers and others. It currently includes all
-  PyGreece organizers, but that is not necessary and might change in the future. PyGreece
-  AMKE administrators are owners, directors are managers, and other organizers are
-  members.
 - **PyGreece Organizers**: This is a group email that inlcudes all PyGreece organizers and
   should be used for internal meeting invitations, Google Drive sharing with multiple
   people, as well as external communications as a group. PyGreece AMKE administrators are
