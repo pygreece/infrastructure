@@ -176,7 +176,7 @@ PyGreece currently owns four domains.
   change in the future.
   - DNS Management: Cloudflare
   - Registrar: Cloudflare
-  - Hosting solution: readthedocs.org
+  - Hosting solution: Cloudflare
   - Repository: [Github](https://github.com/pygreece/community)
 - **pygreece.eu**: Should be an alias to `pygreece.org`.
   - DNS Management: Cloudflare
