@@ -185,10 +185,10 @@ PyGreece currently owns four domains.
   related to the conference, as well as any conference-related activities. It is currently
   empty, but will be populated soon.
   - DNS Management: Cloudflare
-  - Registrar: [papaki](https://papaki.com)
+  - Registrar: [ip.gr](https://ip.gr)
 - **pycongreece.gr**: Should be an alias to `pycon.gr`.
   - DNS Management: Cloudflare
-  - Registrar: [papaki](https://papaki.com)
+  - Registrar: [ip.gr](https://ip.gr)
 
 ### Cloudflare
 
